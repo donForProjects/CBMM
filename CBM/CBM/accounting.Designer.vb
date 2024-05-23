@@ -105,9 +105,9 @@ Partial Class accounting
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(47, 9)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(116, 28)
+        Me.Label7.Size = New System.Drawing.Size(104, 28)
         Me.Label7.TabIndex = 18
-        Me.Label7.Text = "Shop Name"
+        Me.Label7.Text = "Juan 4 All "
         '
         'PictureBox5
         '

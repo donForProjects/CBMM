@@ -23,9 +23,9 @@ Partial Class dashboard
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(dashboard))
-        Dim ChartArea11 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend11 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series11 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea13 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend13 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series13 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -115,9 +115,9 @@ Partial Class dashboard
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(47, 9)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(116, 28)
+        Me.Label7.Size = New System.Drawing.Size(104, 28)
         Me.Label7.TabIndex = 18
-        Me.Label7.Text = "Shop Name"
+        Me.Label7.Text = "Juan 4 All "
         '
         'PictureBox5
         '
@@ -430,18 +430,18 @@ Partial Class dashboard
         '
         'Chart1
         '
-        ChartArea11.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea11)
-        Legend11.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend11)
+        ChartArea13.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea13)
+        Legend13.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend13)
         Me.Chart1.Location = New System.Drawing.Point(690, 346)
         Me.Chart1.Name = "Chart1"
         Me.Chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None
         Me.Chart1.PaletteCustomColors = New System.Drawing.Color() {System.Drawing.Color.DarkCyan, System.Drawing.Color.DarkCyan, System.Drawing.Color.DarkCyan}
-        Series11.ChartArea = "ChartArea1"
-        Series11.Legend = "Legend1"
-        Series11.Name = "Series1"
-        Me.Chart1.Series.Add(Series11)
+        Series13.ChartArea = "ChartArea1"
+        Series13.Legend = "Legend1"
+        Series13.Name = "Series1"
+        Me.Chart1.Series.Add(Series13)
         Me.Chart1.Size = New System.Drawing.Size(436, 226)
         Me.Chart1.TabIndex = 30
         Me.Chart1.Text = "Chart1"

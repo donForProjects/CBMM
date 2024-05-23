@@ -52,9 +52,9 @@ Partial Class login
         Me.Label1.Font = New System.Drawing.Font("Poppins", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(293, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(157, 42)
+        Me.Label1.Size = New System.Drawing.Size(147, 42)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Shop name"
+        Me.Label1.Text = "Juan Shop"
         '
         'TextBox1
         '
@@ -70,9 +70,9 @@ Partial Class login
         Me.Label2.Font = New System.Drawing.Font("Poppins Medium", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(229, 156)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(63, 25)
+        Me.Label2.Size = New System.Drawing.Size(93, 25)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Label2"
+        Me.Label2.Text = "Username"
         '
         'Label3
         '
@@ -80,9 +80,9 @@ Partial Class login
         Me.Label3.Font = New System.Drawing.Font("Poppins Medium", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(229, 239)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(63, 25)
+        Me.Label3.Size = New System.Drawing.Size(86, 25)
         Me.Label3.TabIndex = 5
-        Me.Label3.Text = "Label3"
+        Me.Label3.Text = "Password"
         '
         'TextBox2
         '
@@ -142,6 +142,7 @@ Partial Class login
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.White
+        Me.Label6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label6.Font = New System.Drawing.Font("Poppins", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.DarkCyan
         Me.Label6.Location = New System.Drawing.Point(551, 0)

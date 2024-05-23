@@ -107,9 +107,9 @@ Partial Class manage
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(47, 9)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(116, 28)
+        Me.Label7.Size = New System.Drawing.Size(104, 28)
         Me.Label7.TabIndex = 18
-        Me.Label7.Text = "Shop Name"
+        Me.Label7.Text = "Juan 4 All "
         '
         'PictureBox5
         '
@@ -330,10 +330,15 @@ Partial Class manage
         '
         'ComboBox1
         '
+        Me.ComboBox1.BackColor = System.Drawing.Color.White
+        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.ComboBox1.Items.AddRange(New Object() {"Building", "Foods", "Vehicle", "Protection"})
         Me.ComboBox1.Location = New System.Drawing.Point(220, 121)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(181, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(181, 28)
         Me.ComboBox1.TabIndex = 17
         '
         'Button1
