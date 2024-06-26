@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class manage
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class manage
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(manage))
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -41,20 +41,21 @@ Partial Class manage
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.ItemTB = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.StockTB = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.ManufacturerTB = New System.Windows.Forms.TextBox()
+        Me.CategoryCB = New System.Windows.Forms.ComboBox()
+        Me.AddItemBTN = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.DateTime = New System.Windows.Forms.DateTimePicker()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -66,6 +67,8 @@ Partial Class manage
         Me.Panel3.SuspendLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel4.SuspendLayout()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -85,7 +88,7 @@ Partial Class manage
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(200, 586)
+        Me.Panel1.Size = New System.Drawing.Size(209, 602)
         Me.Panel1.TabIndex = 0
         '
         'PictureBox7
@@ -101,11 +104,11 @@ Partial Class manage
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Poppins Medium", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(47, 9)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(104, 28)
+        Me.Label7.Size = New System.Drawing.Size(93, 20)
         Me.Label7.TabIndex = 18
         Me.Label7.Text = "Juan 4 All "
         '
@@ -123,11 +126,11 @@ Partial Class manage
         '
         Me.Label5.AutoSize = True
         Me.Label5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label5.Font = New System.Drawing.Font("Poppins Medium", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(60, 374)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(66, 28)
+        Me.Label5.Size = New System.Drawing.Size(57, 20)
         Me.Label5.TabIndex = 14
         Me.Label5.Text = "Billing"
         '
@@ -145,11 +148,11 @@ Partial Class manage
         '
         Me.Label4.AutoSize = True
         Me.Label4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label4.Font = New System.Drawing.Font("Poppins Medium", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(60, 297)
+        Me.Label4.Location = New System.Drawing.Point(60, 298)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(114, 28)
+        Me.Label4.Size = New System.Drawing.Size(99, 20)
         Me.Label4.TabIndex = 12
         Me.Label4.Text = "Accounting"
         '
@@ -169,11 +172,11 @@ Partial Class manage
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.DarkCyan
         Me.Label3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label3.Font = New System.Drawing.Font("Poppins Medium", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.MediumTurquoise
         Me.Label3.Location = New System.Drawing.Point(60, 217)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(85, 28)
+        Me.Label3.Size = New System.Drawing.Size(73, 20)
         Me.Label3.TabIndex = 10
         Me.Label3.Text = "Manage"
         '
@@ -211,11 +214,11 @@ Partial Class manage
         '
         Me.Label2.AutoSize = True
         Me.Label2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label2.Font = New System.Drawing.Font("Poppins Medium", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(93, 16)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(72, 28)
+        Me.Label2.Size = New System.Drawing.Size(65, 20)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Logout"
         '
@@ -223,11 +226,11 @@ Partial Class manage
         '
         Me.Label1.AutoSize = True
         Me.Label1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label1.Font = New System.Drawing.Font("Poppins Medium", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(60, 141)
+        Me.Label1.Location = New System.Drawing.Point(60, 142)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(110, 28)
+        Me.Label1.Size = New System.Drawing.Size(99, 20)
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "DashBoard"
         '
@@ -236,15 +239,15 @@ Partial Class manage
         Me.Panel3.BackColor = System.Drawing.Color.Teal
         Me.Panel3.Controls.Add(Me.PictureBox8)
         Me.Panel3.Controls.Add(Me.Label13)
-        Me.Panel3.Location = New System.Drawing.Point(200, 0)
+        Me.Panel3.Location = New System.Drawing.Point(208, 0)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(851, 49)
+        Me.Panel3.Size = New System.Drawing.Size(713, 49)
         Me.Panel3.TabIndex = 8
         '
         'PictureBox8
         '
         Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
-        Me.PictureBox8.Location = New System.Drawing.Point(681, 7)
+        Me.PictureBox8.Location = New System.Drawing.Point(544, 7)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(45, 29)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -254,188 +257,217 @@ Partial Class manage
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Poppins Medium", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.White
-        Me.Label13.Location = New System.Drawing.Point(722, 8)
+        Me.Label13.Location = New System.Drawing.Point(595, 16)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(116, 28)
+        Me.Label13.Size = New System.Drawing.Size(102, 20)
         Me.Label13.TabIndex = 20
         Me.Label13.Text = "Shop Name"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Poppins Medium", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(215, 166)
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(230, 181)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(45, 25)
+        Me.Label8.Size = New System.Drawing.Size(34, 17)
         Me.Label8.TabIndex = 10
         Me.Label8.Text = "Item"
         '
-        'TextBox1
+        'ItemTB
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(220, 194)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(181, 27)
-        Me.TextBox1.TabIndex = 9
+        Me.ItemTB.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
+        Me.ItemTB.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource
+        Me.ItemTB.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ItemTB.Location = New System.Drawing.Point(233, 207)
+        Me.ItemTB.Name = "ItemTB"
+        Me.ItemTB.Size = New System.Drawing.Size(181, 23)
+        Me.ItemTB.TabIndex = 9
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Poppins Medium", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(215, 93)
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(228, 108)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(77, 25)
+        Me.Label9.Size = New System.Drawing.Size(65, 17)
         Me.Label9.TabIndex = 12
         Me.Label9.Text = "Category"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Poppins Medium", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(215, 247)
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(227, 244)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(50, 25)
+        Me.Label10.Size = New System.Drawing.Size(43, 17)
         Me.Label10.TabIndex = 14
         Me.Label10.Text = "Stock"
         '
-        'TextBox3
+        'StockTB
         '
-        Me.TextBox3.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(220, 275)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(181, 27)
-        Me.TextBox3.TabIndex = 13
+        Me.StockTB.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.StockTB.Location = New System.Drawing.Point(232, 272)
+        Me.StockTB.Name = "StockTB"
+        Me.StockTB.Size = New System.Drawing.Size(181, 23)
+        Me.StockTB.TabIndex = 13
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Poppins Medium", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(215, 324)
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(229, 317)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(106, 25)
+        Me.Label11.Size = New System.Drawing.Size(92, 17)
         Me.Label11.TabIndex = 16
         Me.Label11.Text = "Manufacturer"
         '
-        'TextBox4
+        'ManufacturerTB
         '
-        Me.TextBox4.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(220, 352)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(181, 27)
-        Me.TextBox4.TabIndex = 15
+        Me.ManufacturerTB.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
+        Me.ManufacturerTB.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource
+        Me.ManufacturerTB.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ManufacturerTB.Location = New System.Drawing.Point(231, 344)
+        Me.ManufacturerTB.Name = "ManufacturerTB"
+        Me.ManufacturerTB.Size = New System.Drawing.Size(181, 23)
+        Me.ManufacturerTB.TabIndex = 15
         '
-        'ComboBox1
+        'CategoryCB
         '
-        Me.ComboBox1.BackColor = System.Drawing.Color.White
-        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.ComboBox1.Items.AddRange(New Object() {"Building", "Foods", "Vehicle", "Protection"})
-        Me.ComboBox1.Location = New System.Drawing.Point(220, 121)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(181, 28)
-        Me.ComboBox1.TabIndex = 17
+        Me.CategoryCB.BackColor = System.Drawing.Color.White
+        Me.CategoryCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.CategoryCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CategoryCB.FormattingEnabled = True
+        Me.CategoryCB.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.CategoryCB.Items.AddRange(New Object() {"Beverage", "Dairy", "Fruits", "Grains", "Proteins", "Vegetables"})
+        Me.CategoryCB.Location = New System.Drawing.Point(231, 135)
+        Me.CategoryCB.Name = "CategoryCB"
+        Me.CategoryCB.Size = New System.Drawing.Size(181, 28)
+        Me.CategoryCB.TabIndex = 17
         '
-        'Button1
+        'AddItemBTN
         '
-        Me.Button1.BackColor = System.Drawing.Color.DarkCyan
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Poppins", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(220, 454)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(181, 36)
-        Me.Button1.TabIndex = 18
-        Me.Button1.Text = "Add Item"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.DarkCyan
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Poppins", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(220, 495)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(181, 36)
-        Me.Button2.TabIndex = 19
-        Me.Button2.Text = "Edit"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.DarkCyan
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Poppins", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(220, 537)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(181, 36)
-        Me.Button3.TabIndex = 20
-        Me.Button3.Text = "Delete"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.AddItemBTN.BackColor = System.Drawing.Color.DarkCyan
+        Me.AddItemBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AddItemBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AddItemBTN.ForeColor = System.Drawing.Color.White
+        Me.AddItemBTN.Location = New System.Drawing.Point(233, 539)
+        Me.AddItemBTN.Name = "AddItemBTN"
+        Me.AddItemBTN.Size = New System.Drawing.Size(181, 36)
+        Me.AddItemBTN.TabIndex = 18
+        Me.AddItemBTN.Text = "Add"
+        Me.AddItemBTN.UseVisualStyleBackColor = False
         '
         'DataGridView1
         '
+        Me.DataGridView1.AllowUserToAddRows = False
+        Me.DataGridView1.AllowUserToDeleteRows = False
+        Me.DataGridView1.AllowUserToResizeRows = False
+        Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(443, 107)
+        Me.DataGridView1.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.DataGridView1.Location = New System.Drawing.Point(444, 108)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(595, 466)
+        Me.DataGridView1.ReadOnly = True
+        Me.DataGridView1.RowHeadersVisible = False
+        Me.DataGridView1.RowHeadersWidth = 51
+        Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.DataGridView1.Size = New System.Drawing.Size(452, 467)
         Me.DataGridView1.TabIndex = 21
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Poppins Medium", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(682, 63)
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(631, 62)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(118, 42)
+        Me.Label12.Size = New System.Drawing.Size(102, 29)
         Me.Label12.TabIndex = 22
         Me.Label12.Text = "Item List"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Poppins Medium", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(215, 393)
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(230, 381)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(110, 25)
-        Me.Label6.TabIndex = 24
-        Me.Label6.Text = "Price per Item"
+        Me.Label6.Size = New System.Drawing.Size(93, 17)
+        Me.Label6.TabIndex = 23
+        Me.Label6.Text = "Delivery Date"
         '
-        'TextBox2
+        'DateTime
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(220, 421)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(181, 27)
-        Me.TextBox2.TabIndex = 23
+        Me.DateTime.Location = New System.Drawing.Point(232, 410)
+        Me.DateTime.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
+        Me.DateTime.Name = "DateTime"
+        Me.DateTime.Size = New System.Drawing.Size(183, 20)
+        Me.DateTime.TabIndex = 24
+        Me.DateTime.Value = New Date(2024, 6, 20, 5, 5, 18, 0)
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.White
+        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel4.Controls.Add(Me.DataGridView2)
+        Me.Panel4.Controls.Add(Me.Button1)
+        Me.Panel4.Location = New System.Drawing.Point(444, 108)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(452, 466)
+        Me.Panel4.TabIndex = 25
+        '
+        'DataGridView2
+        '
+        Me.DataGridView2.AllowUserToAddRows = False
+        Me.DataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.DataGridView2.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.DataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.DataGridView2.Location = New System.Drawing.Point(0, 0)
+        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
+        Me.DataGridView2.Name = "DataGridView2"
+        Me.DataGridView2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.DataGridView2.RowHeadersVisible = False
+        Me.DataGridView2.RowHeadersWidth = 51
+        Me.DataGridView2.RowTemplate.Height = 24
+        Me.DataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.DataGridView2.Size = New System.Drawing.Size(450, 420)
+        Me.DataGridView2.TabIndex = 0
+        '
+        'Button1
+        '
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button1.Location = New System.Drawing.Point(329, 429)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(110, 27)
+        Me.Button1.TabIndex = 1
+        Me.Button1.Text = "Close"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'manage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1051, 586)
+        Me.ClientSize = New System.Drawing.Size(920, 602)
+        Me.Controls.Add(Me.Panel4)
+        Me.Controls.Add(Me.ManufacturerTB)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.AddItemBTN)
+        Me.Controls.Add(Me.CategoryCB)
+        Me.Controls.Add(Me.ItemTB)
+        Me.Controls.Add(Me.StockTB)
+        Me.Controls.Add(Me.DateTime)
         Me.Controls.Add(Me.Label11)
-        Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -456,6 +488,8 @@ Partial Class manage
         Me.Panel3.PerformLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel4.ResumeLayout(False)
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -477,20 +511,21 @@ Partial Class manage
     Friend WithEvents Label7 As Label
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents ItemTB As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents StockTB As TextBox
     Friend WithEvents Label11 As Label
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents ManufacturerTB As TextBox
+    Friend WithEvents CategoryCB As ComboBox
+    Friend WithEvents AddItemBTN As Button
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents DateTime As DateTimePicker
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents DataGridView2 As DataGridView
+    Friend WithEvents Button1 As Button
 End Class
